@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+__build__
+dist
+dist.tar.gz
+build
+build.tar.gz
+lib
+.cache
+notes.md
+/test-results/
+webrtc-connection-tester*.tgz
