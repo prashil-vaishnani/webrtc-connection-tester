@@ -17,6 +17,13 @@
     "testrtc",
     "npm webrtc"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prashil-vaishnani/webrtc-connection-tester"
+  },
+  "bugs": {
+    "url": "https://github.com/prashil-vaishnani/webrtc-connection-tester/issues"
+  },
   "peerDependencies": {
     "react": "18.x.x"
   },
