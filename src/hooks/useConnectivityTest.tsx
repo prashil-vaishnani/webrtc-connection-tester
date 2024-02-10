@@ -12,7 +12,10 @@ interface parsedCandidatesType {
   address: string;
 }
 
-const useConnectivityTest = (type: string, iceServers: RTCIceServer[]) => {
+const useConnectivityTest = (
+  type: "relay" | "srflx" | "host",
+  iceServers: RTCIceServer[]
+) => {
   const [parsedCandidates, setParsedCandidates] = useState<
     parsedCandidatesType[]
   >([]);

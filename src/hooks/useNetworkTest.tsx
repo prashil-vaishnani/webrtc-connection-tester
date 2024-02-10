@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { iceCandidateFilter, parseCandidate } from "../utils/callerFn";
 
-const useNetworkTest = (protocol: string, iceServers: RTCIceServer[]) => {
+const useNetworkTest = (
+  protocol: "tcp" | "udp",
+  iceServers: RTCIceServer[]
+) => {
   const [message, setMessage] = useState<string[]>([]);
 
   useEffect(() => {
